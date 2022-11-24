@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    background-color: #e42529;
+    position: fixed;
+    width: 100vw;
+    padding-bottom: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top: -20px;
+    padding-top: 20px;
+    height: 90px;
+}
+#img1>img{
+    background-color: #003380;
+    margin-top: 130px;
+    width: 100vw;
+    height: 300px;
+}
+#nav>#left{
+    background-color: white;
+    margin-left: 50px;
+    width: 80px;    
+    height: 80px;
+    border-radius: 50%;   
+    margin-bottom: 5px;
+}
+#nav>#left>a>img{
+    margin-left: 9px;
+    margin-top: 9px;
+    width: 80%;    
+    height: 80%;    
+}
+#mid > i {
+	font-size: 15px;
+	color: rgb(200, 187, 187);
+    z-index: 1;
+    margin-left: -40px;
+}
+
+#mid > input{
+    height: 40px;
+	width: 600px;
+	border: none;
+	outline: none;
+    margin-top: 25px;
+	font-size: 15px;
+	padding-left: 20px;
+    color: rgb(200, 187, 187);
+    border-radius: 30px;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-right: 25px;
+    justify-content: space-between;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#right>#top{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: flex-start;    
+    padding-top: 12px;
+}
+
+
+#right>#bottom{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 12px;
+}
+
+#right>#bottom>p>a{
+    text-decoration: none;
+    color: white;
+}
+
+#right>#bottom>i{
+    width: 14px;
+    margin-top: 4px;
+}
+
+#menu{
+    background-color: #003380;
+    position: fixed;
+    margin-top: 85px;
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    font-size: 15px;
+}
+
+#menu>div{
+    cursor: pointer;
+}
+
+#menu>div:hover{
+    height: 100%;
+    background-color: #e42529;
+}
+
+/* register */
+
+#registerparent{
+    padding-top: 170px;
+    margin: auto;
+    width: 450px;
+    
+}
+
+#containchild{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+
+#topchild{
+    padding: 20px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: #f9fafd;
+    
+}
+
+#innercont{
+    
+    padding-left: 35px;
+    height: 480px;
+    margin-bottom: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+#innercont input{
+    margin-top: 30px;
+    height: 35px;
+    width: 350px;
+    padding-left: 15px;
+    border: 1px solid lightgrey;
+}
+
+#innercont input:nth-child(6){
+    width: 370px;
+    font-size: large;       
+}
+
+input[type="submit"]{
+    background-color: #e42529;
+    color: white;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+
+}
+
+#innercont>form>div{
+    text-align: center;
+}
+
+#innercont>form a{
+    text-decoration: none;
+    color: #e42529;
+    font-weight: bold;
+}
+
+
+
+/* register */
+
+#bottommenu{
+    color: white;
+    background-color: #003380;
+    width: 100vw;
+    padding-top: 20px;
+}
+
+#bottommenu>#top{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+#bottommenu h6{
+    margin-bottom: 8px;
+    font-size: small;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 6px;
+}
+
+#bottommenu>#bottom{
+    display: flex;
+}
+
+#bottom>#social{
+    margin-left: 115px;
+}
+
+#bottom>#app{
+    margin-left: 300px;
+}
+
+#bottom>#app>#store>img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+footer{
+    color: white;
+    background-color: #0a244a;
+    width: 100vw;
+    text-align: center;
+}
+
+footer>h6{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    font-size: medium;
+}
+
+footer>#hr{
+    padding-bottom: 10px;
+    border-bottom: 0.2px solid white;
+}
+
+#hr+p{
+    margin-top: 20px;
+}
+
+footer>p{
+    font-size: 13px;
+    line-height: 15px;
+    padding-bottom: 5px;
+}
+
+footer>hr{
+    margin-bottom: 20px;
+}
